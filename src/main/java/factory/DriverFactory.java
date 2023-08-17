@@ -19,7 +19,7 @@ public class DriverFactory {
 
 		if (browser.equalsIgnoreCase("firefox")) {
 			LoggerLoad.info("Testing on firefox");
-			//WebDriverManager.firefoxdriver().setup();
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 
 		} else if (browser.equalsIgnoreCase("chrome")) {
