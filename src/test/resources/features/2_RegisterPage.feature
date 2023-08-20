@@ -93,8 +93,8 @@ Feature: User Validates the register page in DS Algo
     Given The user opens Register Page
     When The user enters a valid "username" and "password" and "password confirmation"
       | username     | password  | password confirmation |
-      | Numpysdet117_2 | RT56YU@78 | RT56YU@78       |
-    Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as Numpysdet117_2"
+      | Numpysdet117_3 | RT56YU@78 | RT56YU@78       |
+    Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as Numpysdet117_3"
    		
     
      @TC_Register_13
